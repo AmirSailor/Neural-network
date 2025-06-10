@@ -1,18 +1,16 @@
 ignored_words: ['?', '!', '.', ',']
 
-DB_FILE: /home/amirhosein/Documents/Tamrinpy/Spider-master/Gisma-03/gisma.db
+DB_FILE: #file path here(e.g. Example.db)
 TABLE_NAME: pages
 
 #preprocess settings
-MODEL_PATH: /home/amirhosein/Documents/Tamrinpy/chatbot/LaMini-Flan-T5-248M
+MODEL_PATH: #chatbot/LaMini-Flan-T5-248M
 MAX_CHUNK_SIZE: 500
-MODEL_NAME: LaMini-Flan-T5-248M
+MODEL_NAME: #LaMini-Flan-T5-248M
 MAX_CHUNK_SIZE: 500
 OVERLAP: 50
 SIMILARITY_THRESHOLD: 0.7
 
 # llm_pipeline settings
-BASE_MODEL: base_model
-TOKENIZER: tokenizer
 MAX_LENGTH: 50
 MIN_LENGTH: 10
